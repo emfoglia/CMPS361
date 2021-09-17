@@ -3,7 +3,9 @@
   <title>HELLO PHP WORLD</title>
 </head>
 <body>
-  <?php phpinfo(); ?>
-  <?php echo ("I did it!"); ?>
+  <h1 style="text-align: center;">Hello, PHP World!</h1>
 </body>
 </html>
+
+<?php phpinfo(); ?>
+<?php echo ("I did it!"); ?>
