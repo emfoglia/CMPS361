@@ -1,0 +1,19 @@
+<h1>Powerball</h1>
+<button onClick="randNums(1, 69)">Generate Numbers</button>
+<h3 id="one"></h3>
+<h3 id="two"></h3>
+<h3 id="three"></h3>
+<h3 id="four"></h3>
+<h3 id="five"></h3>
+<h3 id="powerball"></h3>
+<script>
+function randNums(min,max){
+Math.floor(Math.random()*(max-min+1)+min);
+    document.getElementById("one").innerHTML = Math.floor(Math.random()*(max-min+1)+min);
+    document.getElementById("two").innerHTML = Math.floor(Math.random()*(max-min+1)+min);
+    document.getElementById("three").innerHTML = Math.floor(Math.random()*(max-min+1)+min);
+    document.getElementById("four").innerHTML = Math.floor(Math.random()*(max-min+1)+min);
+    document.getElementById("five").innerHTML = Math.floor(Math.random()*(max-min+1)+min);
+    document.getElementById("powerball").innerHTML = Math.floor(Math.random()*(35-1+1)+1);
+}
+</script>

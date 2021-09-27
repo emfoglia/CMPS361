@@ -1,0 +1,15 @@
+{
+  "name": "module4",
+  "version": "1.0.0",
+  "description": "PA Lottery Number Generator",
+  "main": "lottery.js",
+  "scripts": {
+    "test": "node lottery.js"
+  },
+  "author": "Emily Foglia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
+  }
+}
